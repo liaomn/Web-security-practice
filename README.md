@@ -22,6 +22,28 @@ Web Security Lab and Vulnerbility Reports
 * 使用**参数化查询（预编译语句）**，分离代码与数据。
 * 对用户输入进行严格的过滤和转义。
 * 部署 Web 应用防火墙（WAF）拦截恶意特征。
-  
+
+
+
+# 网址的安全渗透
+## 漏洞实战 01：基于 WHERE 子句的 SQL 注入（获取隐藏数据）
+## 漏洞实战 02：基于 SQL 注入的登录绕过（Login Bypass）
+<img width="524" height="373" alt="image" src="https://github.com/user-attachments/assets/eedad979-971d-4716-93a4-6dffc55888b0" />
+<img width="401" height="444" alt="image" src="https://github.com/user-attachments/assets/219bbc33-d8a6-4b2e-8138-c90a67ad41cc" />
+<img width="593" height="243" alt="image" src="https://github.com/user-attachments/assets/bba12a67-ee54-46fb-a337-0e95a21a5eef" />
+
+## 原理分析：
+后台代码原本是:
+`SELECT * FROM users WHERE username = 'administrator' AND password = '123'`
+
+输入 :
+`administrator'--` 
+
+`--` 将后面的密码验证部分注释作废，数据库只验证了用户名，直接放行。
+
+
+
+
+
 
 
