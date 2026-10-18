@@ -1,4 +1,4 @@
-## Lab 5: 在单一列中检索多个值
+## Lab 4: 在单一列中检索多个值
 
 **靶场平台**：PortSwigger Web Security Academy
 **漏洞类型**：UNION 注入 (字符串拼接)
