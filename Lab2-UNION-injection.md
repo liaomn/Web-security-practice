@@ -1,4 +1,4 @@
-## Lab 3: SQL注入 UNION 攻击与确定列数
+## Lab 2: SQL注入 UNION 攻击与确定列数
 
 **靶场平台**：PortSwigger Web Security Academy
 **漏洞类型**：UNION 注入 (UNION SQLi)
